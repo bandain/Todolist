@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+
 body {
-    background-color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 245, 246);
+    font-family:'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h1 {
