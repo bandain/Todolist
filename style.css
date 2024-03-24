@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
 
 body {
-    background-color: rgb(246, 246, 251);
     font-family:'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,4 +8,105 @@ body {
 
 .updateController {
     display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(99deg,#def2fe,#83c7f7,#5b5ba7);
+    overflow: hidden;
+}
+
+.container {
+    width: 500px;
+    background-color: #fff;
+    margin: 100px auto 10px;
+    padding: 20px 20px 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 5px rgba(122, 121, 123, 0.67)
+}
+
+h1 {
+    color: navy;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    background: #eceaea;
+    padding-left: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex:1;
+    font-size: 15px;
+}
+
+.addBtn {
+    background-color: #5b5ba7;
+    color: white;
+}
+
+button {
+    border: none; 
+    outline: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.updateController button {
+    background-color: white;
+    color: #5b5ba7;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+
+.item {
+    background-color: #5b5ba7;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.inputController {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit {
+    display: flex;
+}
+
+i {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.editBtn {
+    margin-left: 15px;
+}
+
+textarea {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    resize: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+textarea:focus {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.67);
 }
